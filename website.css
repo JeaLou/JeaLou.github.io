@@ -1,0 +1,103 @@
+*{
+	/*outline: 1px solid red !important;*/
+	
+/*these lines = responsive website
+-> adapte la taille du contenu à la taille de l'écran*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+
+	background-color: white;
+	color: black;
+	margin: 0px 0px
+}
+
+.center-text{
+	text-align: center;
+}
+
+.right-text{
+	text-align: right;
+}
+
+.title{
+	display: block;
+	margin: 0 auto;
+	max-width: 25%
+}
+
+.row{
+	width: 100%;
+	display: flex;
+	}
+
+.col-1{width: 8,33%;}
+.col-2{width: 16,66%;}
+.col-3{width: 25%;}
+.col-4{width: 33,33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58,33%;}
+.col-8{width: 66,66%;}
+.col-9{width: 75%;}
+.col-10{width: 83,33%;}
+.col-11{width: 91,66%;}
+.col-12{width: 100%;}
+
+.irl {
+	max-width: 90%;
+	}
+
+.ich{
+	max-width: 90%;
+}
+
+.rumgekritzel{
+	max-width: 90%;
+	
+}
+
+.spielkasten{
+	max-width: 90%;
+}
+
+.politik{
+	max-width: 90%;
+}
+
+.menu {
+	max-width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+
+.sparte1{
+	margin-top: 30%;
+}
+
+.sparte3{
+	margin-top: 60%;
+}
+
+.footer{
+	background-color: black;
+	color: white;
+	padding-top: 0.5%;
+	margin-top: 1%;
+}
+
+.black{
+	background-color: black;
+	color: white;
+}
+
+
+.hallo{
+	position: relative;
+	bottom: 35%;
+	left: 12%
+}
+
+
+/*hover : passer la souris sur une box*/
